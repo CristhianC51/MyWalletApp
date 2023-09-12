@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyWalletApp</string>
+
+    <string name="txt_new_account">Nueva Cuenta</string>
+
+    <string name="txt_btn_guardar">Guardar</string>
+    <string name="txt_name_account">Nombre de la cuenta</string>
+    <string name="txt_type_account">Tipo de cuenta</string>
+    <string name="txt_initial_balance">Saldo inicial</string>
+    <string name="txt_saldo">Saldo</string>
+    <string name="txt_tipo_de_cuenta">Tipo de cuenta</string>
+    <string name="txt_nombre_de_cuenta">Nombre de cuenta</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="txt_editar">Editar</string>
+    <string name="txt_cuenta_de_ahorros">Cuenta de ahorros</string>
+</resources>
