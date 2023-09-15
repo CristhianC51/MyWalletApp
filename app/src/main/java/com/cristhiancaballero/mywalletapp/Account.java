@@ -4,11 +4,13 @@ public class Account {
 
     private String name, type;
     private Double balance;
+    private String imageUrl;
 
-    public Account(String name, String type, Double balance) {
+    public Account(String name, String type, Double balance, String imageUrl) {
         this.name = name;
         this.type = type;
         this.balance = balance;
+        this.imageUrl = imageUrl;
     }
 
     public String getName() {
@@ -33,5 +35,13 @@ public class Account {
 
     public void setBalance(Double balance) {
         this.balance = balance;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
