@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/iv_principal"
+                android:id="@+id/iv_imagen"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_gravity="center_horizontal"
@@ -35,7 +35,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_item_name_account"
+                    android:id="@+id/tv_item_name_category"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -52,7 +52,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tv_saldo"
+                    android:id="@+id/tv_color"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -101,7 +101,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tv_item_type_account"
+                    android:id="@+id/tv_item_type_category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"

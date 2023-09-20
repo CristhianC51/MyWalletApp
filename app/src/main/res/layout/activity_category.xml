@@ -22,7 +22,7 @@
             android:layout_height="wrap_content">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/iv_principal"
+                android:id="@+id/iv_imagen"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_gravity="center_horizontal"
@@ -33,7 +33,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tv_item_name_account"
+                android:id="@+id/tv_item_name_category"
                 android:layout_width="259dp"
                 android:layout_height="19dp"
                 android:layout_margin="16dp"
@@ -44,23 +44,23 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/iv_principal"
+                app:layout_constraintStart_toEndOf="@+id/iv_imagen"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/tv_item_type_account"
+                android:id="@+id/tv_item_type_category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_weight="1"
                 android:text="@string/txt_NombreCategoria"
                 android:textSize="14sp"
-                app:layout_constraintStart_toEndOf="@+id/iv_principal"
-                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_account" />
+                app:layout_constraintStart_toEndOf="@+id/iv_imagen"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_category" />
 
             <TextView
-                android:id="@+id/tv_saldo"
+                android:id="@+id/tv_color"
                 android:layout_width="249dp"
                 android:layout_height="17dp"
                 android:layout_margin="16dp"
@@ -69,29 +69,29 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.448"
-                app:layout_constraintStart_toEndOf="@+id/iv_principal"
-                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_account"
+                app:layout_constraintStart_toEndOf="@+id/iv_imagen"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_category"
                 app:layout_constraintVertical_bias="0.656" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/iv_basura"
                 android:layout_width="40dp"
                 android:layout_height="24dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_account"
+                app:layout_constraintTop_toBottomOf="@+id/tv_item_name_category"
                 app:srcCompat="@drawable/ic_basura" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/iv_barra_color"
                 android:layout_width="132dp"
                 android:layout_height="22dp"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/borderscolor"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_saldo"
+                app:layout_constraintTop_toBottomOf="@+id/tv_color"
                 app:srcCompat="@color/My_primary_Color"
 
 
