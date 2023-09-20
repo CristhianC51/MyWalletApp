@@ -13,4 +13,11 @@
     <string name="eliminar">Eliminar</string>
     <string name="txt_editar">Editar</string>
     <string name="txt_cuenta_de_ahorros">Cuenta de ahorros</string>
+
+
+    <string name="txt_Nombre">Nombre</string>
+    <string name="txt_NombreCategoria">Restaurante</string>
+    <string name="txt_Color">Color</string>
+
+
 </resources>
