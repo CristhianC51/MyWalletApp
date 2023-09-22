@@ -20,7 +20,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nombre" />
+            android:hint="Nombre" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_weight="1"
-        android:text="@string/color"
+        android:text="Color"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         tools:layout_editor_absoluteX="144dp" />
 
@@ -40,7 +40,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:text="@string/cancelar"
+        android:text="Cancelar"
         app:layout_constraintTop_toBottomOf="@+id/button"
         tools:layout_editor_absoluteX="1dp" />
 
@@ -50,8 +50,9 @@
         android:layout_height="53dp"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:text="@string/aceptar"
+        android:text="Aceptar"
         app:layout_constraintTop_toBottomOf="@+id/button"
         tools:layout_editor_absoluteX="201dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
