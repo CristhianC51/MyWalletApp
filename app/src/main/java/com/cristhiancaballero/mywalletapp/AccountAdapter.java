@@ -48,7 +48,7 @@ public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHold
 
             tvName = itemView.findViewById(R.id.tv_item_name_account);
             tvCurrentValue = itemView.findViewById(R.id.tv_valor_saldo);
-            tvType = itemView.findViewById(R.id.tv_item_type_account);
+            tvType = itemView.findViewById(R.id.tv_name);
 
             ivPrincipal = itemView.findViewById(R.id.iv_principal);
 
