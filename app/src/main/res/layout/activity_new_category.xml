@@ -25,7 +25,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/colorPickerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -39,10 +39,11 @@
         android:layout_width="177dp"
         android:layout_height="51dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
         android:layout_weight="1"
         android:text="Cancelar"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/colorPickerButton" />
 
     <Button
         android:id="@+id/button4"
@@ -51,8 +52,21 @@
         android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:text="Aceptar"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="201dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorPickerButton" />
+
+    <TextView
+        android:id="@+id/colorDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Color seleccionado: #000000"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorPickerButton"
+        app:layout_constraintVertical_bias="0.1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
